@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fidget Spinner/ViewController.swift"
+            timestampString = "516646468.916028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "respondToSwipeGesture(gesture:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidget_Spinner.ViewController.respondToSwipeGesture (gesture : __ObjC.UIGestureRecognizer) -&gt; ()"
+                  moduleName = "Fidget Spinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshanmughal/Dropbox/gdrive/Dropbox/Code/github/Fidget%20Spinner/Fidget%20Spinner/ViewController.swift"
+                  timestampString = "516481175.931179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidget_Spinner.ViewController.respondToSwipeGesture (gesture : __ObjC.UIGestureRecognizer) -&gt; ()"
+                  moduleName = "Fidget Spinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshanmughal/Dropbox/gdrive/Dropbox/Code/github/Fidget%20Spinner/Fidget%20Spinner/ViewController.swift"
+                  timestampString = "516481175.933021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fidget Spinner/ViewController.swift"
+            timestampString = "516646566.70459"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "spin(direction:count:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidget_Spinner.ViewController.spin (direction : CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "Fidget Spinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshanmughal/Dropbox/gdrive/Dropbox/Code/github/Fidget%20Spinner/Fidget%20Spinner/ViewController.swift"
+                  timestampString = "516481208.241983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidget_Spinner.ViewController.(spin (direction : CoreGraphics.CGFloat) -&gt; ()).(closure #1)"
+                  moduleName = "Fidget Spinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshanmughal/Dropbox/gdrive/Dropbox/Code/github/Fidget%20Spinner/Fidget%20Spinner/ViewController.swift"
+                  timestampString = "516481208.243166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB479E531EC8D8FE004E905D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB479E521EC8D8FE004E905D /* AppDelegate.swift */; };
+		AB479E551EC8D8FE004E905D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB479E541EC8D8FE004E905D /* ViewController.swift */; };
+		AB479E5A1EC8D8FE004E905D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB479E591EC8D8FE004E905D /* Assets.xcassets */; };
+		AB479E5D1EC8D8FE004E905D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB479E5B1EC8D8FE004E905D /* LaunchScreen.storyboard */; };
+		AB479E651EC8DB24004E905D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB479E641EC8DB24004E905D /* Extensions.swift */; };
+		ABDE0B0A1ECB66F800F33866 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABDE0B091ECB66F800F33866 /* sample.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB479E4F1EC8D8FE004E905D /* Fidget Spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fidget Spinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB479E521EC8D8FE004E905D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB479E541EC8D8FE004E905D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB479E591EC8D8FE004E905D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB479E5C1EC8D8FE004E905D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB479E5E1EC8D8FE004E905D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB479E641EC8DB24004E905D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ABDE0B091ECB66F800F33866 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB479E4C1EC8D8FE004E905D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB479E461EC8D8FE004E905D = {
+			isa = PBXGroup;
+			children = (
+				AB479E511EC8D8FE004E905D /* Fidget Spinner */,
+				AB479E501EC8D8FE004E905D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB479E501EC8D8FE004E905D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB479E4F1EC8D8FE004E905D /* Fidget Spinner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB479E511EC8D8FE004E905D /* Fidget Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				AB479E521EC8D8FE004E905D /* AppDelegate.swift */,
+				AB479E541EC8D8FE004E905D /* ViewController.swift */,
+				AB479E641EC8DB24004E905D /* Extensions.swift */,
+				AB479E591EC8D8FE004E905D /* Assets.xcassets */,
+				AB479E5B1EC8D8FE004E905D /* LaunchScreen.storyboard */,
+				AB479E5E1EC8D8FE004E905D /* Info.plist */,
+				ABDE0B091ECB66F800F33866 /* sample.mp3 */,
+			);
+			path = "Fidget Spinner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB479E4E1EC8D8FE004E905D /* Fidget Spinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB479E611EC8D8FE004E905D /* Build configuration list for PBXNativeTarget "Fidget Spinner" */;
+			buildPhases = (
+				AB479E4B1EC8D8FE004E905D /* Sources */,
+				AB479E4C1EC8D8FE004E905D /* Frameworks */,
+				AB479E4D1EC8D8FE004E905D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fidget Spinner";
+			productName = "Fidget Spinner";
+			productReference = AB479E4F1EC8D8FE004E905D /* Fidget Spinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB479E471EC8D8FE004E905D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Footbits Inc";
+				TargetAttributes = {
+					AB479E4E1EC8D8FE004E905D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DL3URLHW7B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB479E4A1EC8D8FE004E905D /* Build configuration list for PBXProject "Fidget Spinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB479E461EC8D8FE004E905D;
+			productRefGroup = AB479E501EC8D8FE004E905D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB479E4E1EC8D8FE004E905D /* Fidget Spinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB479E4D1EC8D8FE004E905D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB479E5D1EC8D8FE004E905D /* LaunchScreen.storyboard in Resources */,
+				AB479E5A1EC8D8FE004E905D /* Assets.xcassets in Resources */,
+				ABDE0B0A1ECB66F800F33866 /* sample.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB479E4B1EC8D8FE004E905D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB479E551EC8D8FE004E905D /* ViewController.swift in Sources */,
+				AB479E651EC8DB24004E905D /* Extensions.swift in Sources */,
+				AB479E531EC8D8FE004E905D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB479E5B1EC8D8FE004E905D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB479E5C1EC8D8FE004E905D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB479E5F1EC8D8FE004E905D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB479E601EC8D8FE004E905D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB479E621EC8D8FE004E905D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DL3URLHW7B;
+				INFOPLIST_FILE = "Fidget Spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.footbits.Fidget-Spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB479E631EC8D8FE004E905D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DL3URLHW7B;
+				INFOPLIST_FILE = "Fidget Spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.footbits.Fidget-Spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB479E4A1EC8D8FE004E905D /* Build configuration list for PBXProject "Fidget Spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB479E5F1EC8D8FE004E905D /* Debug */,
+				AB479E601EC8D8FE004E905D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB479E611EC8D8FE004E905D /* Build configuration list for PBXNativeTarget "Fidget Spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB479E621EC8D8FE004E905D /* Debug */,
+				AB479E631EC8D8FE004E905D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB479E471EC8D8FE004E905D /* Project object */;
+}
